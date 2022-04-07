@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 ## Quick Start
 1. Download [dataset](https://pan.baidu.com/s/1nEZfBJIwFpGqidDKfWromQ?errmsg=Auth+Login+Params+Not+Corret&errno=2&ssnerror=0#list/path=%2F) (passord: 7mvn) and unzip it under the `data` folder.
-2. Download the pretrained model [mbart-large-50]("https://huggingface.co/facebook/mbart-large-50").
+2. Download the pretrained model [mbart-large-50](https://huggingface.co/facebook/mbart-large-50).
 3. Execute command `python3 preprocess.py` to generate data for model training. This will generate `train.jsonl` and `dev.jsonl` in the `data` folder. Note that it will take few minutes.
 4. You can execute `bash train.sh` or the following command to train an baseline model.
     ```bash
