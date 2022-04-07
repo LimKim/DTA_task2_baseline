@@ -33,7 +33,7 @@ pip install -r requirements.txt
         --skip_eval_epochs ${skip_iter} \
         --learning_rate ${learning_rate}
     ```
-5. You can execute `bash test.sh` or the following command to train an baseline model.  And you will get your generated results in the `test.pred` file
+5. You can execute `bash test.sh` or the following command to generate dialogue summary by the model trained before.  And you will get your generated results in the `test.pred` file.
     ```bash
     python3 -u pipeline.py \
         --do_test \
