@@ -1,0 +1,4 @@
+numpy==1.21.0
+torch==1.8.1
+transformers==4.6.0
+rouge==1.0.1
